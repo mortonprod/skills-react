@@ -1,0 +1,183 @@
+.app{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+}
+
+.app__skills {
+    position: relative;
+    width: 414px;
+    height: 414px;
+    border: solid;
+    transform:scale(1.0);
+}
+
+.app__skills__shape {
+    position: absolute;
+    width: 184.79px;
+    height: 130.58px;
+    margin:0;
+
+}
+
+.app__skills__shape > h3 {
+    margin: 0;
+}
+
+.app__skills__shape--one {
+    left: 4.46px;
+    top: 223.63px;
+    background: url('./assets/shapeOne.svg');
+    background-repeat: no-repeat;
+    text-align:left;
+}
+
+.app__skills__shape--one > h3 {
+    position:relative;
+    top:20px;
+    left:10px;
+}
+.app__skills__shape--one > img {
+    position: relative;
+    top:10px;
+    left:10px;
+}
+
+.app__skills__shape--two {
+    left: 5.49px;
+    top: 91.92px;
+    background: url('./assets/shapeTwo.svg');
+    background-repeat: no-repeat;
+}
+
+.app__skills__shape--two > h3 {
+    position: relative;
+    top: 55px;
+    left: 10px;
+}
+
+.app__skills__shape--two > img {
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.app__skills__shape--three {
+    left: 59.62px;
+    top: 38.81px;
+    background: url('./assets/shapeThree.svg');
+    background-repeat: no-repeat;
+}
+
+.app__skills__shape--three > h3 {
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.app__skills__shape--three > img {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.app__skills__shape--four {
+    left: 185.92px;
+    top: 38.81px;
+    background: url('./assets/shapeFour.svg');
+    background-repeat: no-repeat;
+}
+
+.app__skills__shape--four > h3 {
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.app__skills__shape--four > img {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.app__skills__shape--five {
+    left: 189.26px;
+    top: 92.59px;
+    background: url('./assets/shapeFive.svg');
+    background-repeat: no-repeat;
+}
+
+.app__skills__shape--five > h3 {
+    position: relative;
+    top: 50px;
+    left: 65px;
+}
+
+.app__skills__shape--five > img {
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+
+.app__skills__shape--six {
+    left: 189.26px;
+    top: 220.37px;
+    background: url('./assets/shapeSix.svg');
+    background-repeat: no-repeat;
+}
+
+
+.app__skills__shape--six > h3 {
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
+
+.app__skills__shape--six > img {
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+.app__skills__shape--circle--dull {
+    left: 103.18px;
+    top: 136.26px;
+    width: 173.27px;
+    height: 173.27px;
+    opacity: 0.25;
+    background: #FFFFFF;
+    border-radius:50%;
+}
+
+.app__skills__shape--circle {
+    left: 115.18px;
+    top: 146.26px;
+    width: 150.27px;
+    height: 150.27px;
+    opacity: 1;
+    background: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    display: table;
+}
+.app__skills__shape--circle > h1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.app__skills__semi {
+    position: absolute;
+    left: 60px;
+    top: 90px;
+    width: 160px;
+    height: 160px;
+    border: 50px solid;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-color: green;
+}
